@@ -1,0 +1,19 @@
+[project]
+name = "python-final-project-junglhin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "justinweon", email = "justinweon@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+python-final-project-junglhin = "python_final_project_junglhin:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
