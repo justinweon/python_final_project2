@@ -24,24 +24,28 @@ class Library:
 
     def borrow_books(self, isbn):
         book = self._find_by_id(isbn)
+        title = book.get_title()
+
         if not book:
-            print(f"{isbn} 도서를 찾을 수 없습니다.")
+            print(f"도서를 찾을 수 없습니다.")
             return
+
         if book.is_available():
             book.rent_book()
-            print(f"{isbn} 도서를 대여합니다.")
+            print(f"도서번호:{isbn}: [{title}] 도서를 대여합니다.")
         else:
-            print(f"{isbn} 은(는) 현재 대여중입니다.")
+            print(f"도서번호:{isbn}: [{title}] 은(는) 현재 대여중입니다.")
 
     def return_books(self, isbn:str):
         book = self._find_by_id(isbn)
+        title = book.get_title()
         if not book:
-            print (f"{isbn} 도서를 찾을 수 없습니다.")
+            print (f"도서를 찾을 수 없습니다.")
             return
 
         if not book.is_available():
             book.return_book()
-            print (f"{isbn} 도서를 반납합니다.")
+            print (f"도서번호:{isbn}: [{title}] 도서를 반납합니다.")
 
         else:
             print(f"{isbn}는 대여되지 않은 도서입니다.")

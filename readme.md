@@ -30,4 +30,4 @@
 ### 실행 명령어
 
 ```bash
-python main.py
+python main.py 
