@@ -20,7 +20,7 @@ def main():
             print()
 
             choice = input("원하는 기능의 번호를 선택하세요:").strip()
-            print(" 💖 ".center(40, "✨"))
+            print(" 💖 ".center(20, "-"))
 
             if choice == "1":
                 print("도서 검색")
@@ -28,7 +28,7 @@ def main():
                 matches = lib.search_books(term)
                 if matches:
                     title = [book.get_title() for book in matches]
-                    print(f">>{', '.join(title)}<< 검색되었습니다.")
+                    print(f">>{', '.join(title)} 🔍검색되었습니다.")
 
                 else:
                     print("검색결과가 없습니다.")
