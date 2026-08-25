@@ -18,7 +18,7 @@ def main():
             print("📚 모든 도서 보기")
             print("❌ 나가기")
             print()
-            print(" 💖 ".center(20, "-"))
+            print("+ ".center(20, "-"))
 
             choice = input("원하는 기능의 번호를 선택하세요👉").strip()
             print()

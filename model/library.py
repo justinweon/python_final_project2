@@ -6,7 +6,7 @@ class Library:
 
     def add_book(self, book):
         self.library.append(book)
-        print(f"도서가 등록되었습니다 | {book.get_title()}")
+        print(f"➕도서가 등록되었습니다 | {book.get_title()}➕")
 
     def display_info(self):
         if not self.library:
