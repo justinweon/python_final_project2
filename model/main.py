@@ -13,14 +13,14 @@ def main():
             print()
             print("🔍 도서 검색")
             print("➕ 도서 등록")
-            print("📤도서 대여")
+            print("📤 도서 대여")
             print("📥 도서 반납")
             print("📚 모든 도서 보기")
-            print("❌ 6. 나가기")
+            print("❌ 나가기")
             print()
 
             choice = input("원하는 기능의 번호를 선택하세요:").strip()
-            print()
+            print(" 💖 ".center(40, "✨"))
 
             if choice == "1":
                 print("도서 검색")
@@ -57,8 +57,6 @@ def main():
                     
                 else:
                     print("올바른 도서종류 (1 또는 2)를 선택해주세요")
-
-                    continue
 
 
             elif choice == "3":
