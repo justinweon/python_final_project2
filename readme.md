@@ -35,6 +35,9 @@ python main.py
 
 
 ## 📸 실행 화면 (Screenshots)
+<p align="left">
+  <img src="스크린샷 2026-08-25 165400.png" alt="실행 화면" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
 
 ### 1. 도서 검색
 <p align="left">
