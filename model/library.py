@@ -16,7 +16,7 @@ class Library:
                 print(book.display_info())
 
     def search_books(self, keyword:str):
-        keyword = keyword.lower()
+        keyword = keyword.lower().strip()
         results = [book for book in self.library
                   if keyword in book.get_title().lower() or keyword in book.get_author().lower()
         ]
