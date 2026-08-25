@@ -34,17 +34,44 @@ python main.py
 ```
 
 
-📸 실행 화면 (Screenshots)
-![alt text](<스크린샷 2026-08-25 163958.png>)
-1. 도서 검색
-![alt text](<스크린샷 2026-08-25 170329.png>)
-2. 도서 등록
-![alt text](<스크린샷 2026-08-25 165408.png>)
-3. 도서 대여
-![alt text](<스크린샷 2026-08-25 170342.png>)
-4. 도서 반납
-![alt text](<스크린샷 2026-08-25 170407.png>)
-5. 모든 도서 보기
-![alt text](<스크린샷 2026-08-25 170355.png>)
-6. 서비스 종료
-![alt text](<스크린샷 2026-08-25 170650.png>)
+## 📸 실행 화면 (Screenshots)
+
+### 1. 도서 검색
+<p align="left">
+  <img src="스크린샷 2026-08-25 170329.png" alt="도서 검색" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
+
+---
+
+### 2. 도서 등록
+<p align="left">
+  <img src="스크린샷 2026-08-25 165408.png" alt="도서 등록" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
+
+---
+
+### 3. 도서 대여
+<p align="left">
+  <img src="스크린샷 2026-08-25 170342.png" alt="도서 대여" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
+
+---
+
+### 4. 도서 반납
+<p align="left">
+  <img src="스크린샷 2026-08-25 170407.png" alt="도서 반납" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
+
+---
+
+### 5. 모든 도서 보기
+<p align="left">
+  <img src="스크린샷 2026-08-25 170355.png" alt="모든 도서 보기" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
+
+---
+
+### 6. 서비스 종료
+<p align="left">
+  <img src="스크린샷 2026-08-25 170650.png" alt="서비스 종료" width="600" height="350" style="object-fit: contain; background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;" />
+</p>
