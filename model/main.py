@@ -8,13 +8,15 @@ def main():
     while True:
         try: 
     
-            print("=== Book library menu===")
-            print("1. 도서 검색")
-            print("2. 도서 등록")
-            print("3. 도서 대여")
-            print("4. 도서 반납")
-            print("5. 모든 도서 보기")
-            print("6. 나가기")
+            print("🏛️=== Book library menu===🏛️")
+            print()
+            print("1️⃣ 도서 검색")
+            print("2️⃣ 도서 등록")
+            print("3️⃣ 도서 대여")
+            print("4️⃣ 도서 반납")
+            print("5️⃣ 모든 도서 보기")
+            print("❌ 6. 나가기")
+            print()
 
             choice = input("원하는 기능의 번호를 선택하세요:").strip()
 

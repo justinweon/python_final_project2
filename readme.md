@@ -36,6 +36,7 @@ python main.py
 
 📸 실행 화면 (Screenshots)
 1. 도서 검색
+
 2. 도서 등록
 3. 도서 대여
 4. 도서 반납
