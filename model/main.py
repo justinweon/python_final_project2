@@ -53,7 +53,7 @@ def main():
 
                 elif book_type =="2":
                     file_size = input("파일크기(MB):").strip()
-                    new_book = specialized_books.Ebook(title,author,file_size)
+                    new_book = specialized_books.Ebook(title,author,isbn,file_size)
                     lib.add_book(new_book)
                     
                 else:
