@@ -18,9 +18,10 @@ def main():
             print("📚 모든 도서 보기")
             print("❌ 나가기")
             print()
-
-            choice = input("원하는 기능의 번호를 선택하세요:").strip()
             print(" 💖 ".center(20, "-"))
+
+            choice = input("원하는 기능의 번호를 선택하세요👉").strip()
+            print()
 
             if choice == "1":
                 print("도서 검색")
