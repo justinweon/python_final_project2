@@ -58,6 +58,8 @@ def main():
                 else:
                     print("올바른 도서종류 (1 또는 2)를 선택해주세요")
 
+                    continue
+
 
             elif choice == "3":
                 print("도서 대여")
