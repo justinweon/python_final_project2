@@ -16,7 +16,7 @@ class Library:
                 print(book.display_info())
 
     def search_books(self, keyword:str):
-        keyword = keyword.lower().strip()
+        keyword = keyword.lower()
         results = [book for book in self.library
                   if keyword in book.get_title().lower() or keyword in book.get_author().lower()
         ]
@@ -32,9 +32,9 @@ class Library:
 
         if book.is_available():
             book.rent_book()
-            print(f"도서번호:{isbn}: [📤 {title}] 도서를 대여합니다.")
+            print(f"도서번호:{isbn}: 📤[{title}] 도서를 대여합니다.")
         else:
-            print(f"도서번호:{isbn}: [⚠️ {title}] 은(는) 현재 대여중입니다.")
+            print(f"도서번호:{isbn}: ⚠️[{title}] 은(는) 현재 대여중입니다.")
 
     def return_books(self, isbn:str):
         book = self._find_by_id(isbn)
